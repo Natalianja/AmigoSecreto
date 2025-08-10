@@ -14,7 +14,7 @@ function agregarAmigo() {
         amigos.push(nombre.value);//guarda el valor del nombre en la lista//
         htmlAmigos.innerHTML = "";
         for (let recorrer = 0; recorrer < amigos.length; recorrer++){ //recorre la lista de amigos//
-            htmlAmigos.innerHTML += `<li>${amigos[i]}</li>`;
+            htmlAmigos.innerHTML += `<li>${amigos[recorrer]}</li>`;
         }
         limpiarCaja();
     }
